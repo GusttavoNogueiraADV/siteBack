@@ -77,7 +77,7 @@ html: `
       <div class="container">
         <h2>📨 Novo Contato via Website</h2>
         <p><span class="highlight">Opções selecionadas:</span> ${selectedOptions.join(', ')}</p>
-        <p><span class="highlight">Telefone informado:</span> ${phoneNumber}</p>
+        <p><span class="highlight">Telefone informado:</span> <a href="https://wa.me/${phoneNumber}" target="_blank">${phoneNumber}</a></p>
         <div class="footer">
           <p>Obrigado por usar minha aplicação! Se precisar de algo, <a href="https://wa.me/5513991822130" target="_blank">entre em contato pelo WhatsApp</a>.</p>
         </div>
